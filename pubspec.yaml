@@ -1,0 +1,65 @@
+name: todays_sales
+description: An application to collect todays sales from store owners and manage there inventory
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  firebase_messaging: ^10.0.4
+  cupertino_icons: ^1.0.3
+  progress_indicators: ^1.0.0
+  flutter_widget_from_html: ^0.6.1
+  flutter_spinkit: ^5.0.0
+  shared_preferences: ^2.0.6
+  toast: ^0.1.5
+  easy_dialogs: ^2.0.0
+  dio: ^4.0.0
+  percent_indicator: ^3.0.1
+  liquid_pull_to_refresh: ^3.0.0
+  package_info: ^2.0.2
+  event_bus: ^2.0.0
+  sprintf: ^6.0.0
+  flutter_layout_grid: ^1.0.3
+  intl: any
+  modal_bottom_sheet: ^2.0.0
+  autocomplete_textfield_ns: ^2.0.0
+  printing: ^5.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_date_picker:
+#    path: library/flutter_date_picker
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/lang/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+
+    - family: Barter
+      fonts:
+        - asset: assets/fonts/Barter.ttf
