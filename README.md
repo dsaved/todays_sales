@@ -1,4 +1,4 @@
-# fasel
+# Today Sales
 
 Today sales is a mobile Point of sale application which enables store owners manage inventories and make sales from the application
 
