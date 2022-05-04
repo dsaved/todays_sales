@@ -1,6 +1,6 @@
 # fasel
 
-FASEL is an application that allows users to earn point which can be exchange for money while viewing ads on the platform, this application also allow users to get access to news and receive notifications in real time
+Today sales is a mobile Point of sale application which enables store owners manage inventories and make sales from the application
 
 ## Getting Started
 
